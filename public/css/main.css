@@ -539,23 +539,20 @@ margin: -1vh 0 0 -1vh;
 .contacto-slide {
   padding: 5vh;
 }
-.contacto-slide>div:first-child {
 
-}
 .flex-container {
 display: flex;
 justify-content: space-around;
 align-items: stretch;
+    margin: 2vh;
 }
 .flex-item {
-margin: 1vh;
-flex-basis: 20%;
-flex-grow: 1;
-text-align: left;
-}
-.flex-item:first-child, .flex-item:last-child {
-  height: 80vh;
-  flex-basis: 40%
+    margin: 1vh;
+    flex-basis: 20%;
+    flex-grow: 1;
+    text-align: left;
+    height: 80vh;
+    flex-basis: 40%
 }
 @media (max-width: 900px) {
   .flex-container {
