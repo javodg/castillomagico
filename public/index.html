@@ -90,10 +90,12 @@
               We worry about what a child will become tomorrow, yet we forget that he is someone today. Children are not things to be molded, but are people to be unfolded.
             </p>
             <div class="is-animated">
-              <a href="https://www.youtube.com/watch?v=kpi0GOPAz8Q" class="mediabox btn btn-slide">
+              <a href="https://vimeo.com/137945608" class="mediabox btn btn-slide">
                 <i class="fa fa-angle-right" aria-hidden="true" style="color:#F9C604"></i> Servicios
               </a>
-              <p class="texto1 mini" style="text-align:center;">Checa nuestros paquetes</p>
+              <a href="#" class="mediabox btn btn-slide">
+                <i class="fa fa-angle-right" aria-hidden="true" style="color:#F9C604"></i> Paquetes
+              </a>
             </div>
           </div>
         </div>
@@ -136,9 +138,9 @@
               We worry about what a child will become tomorrow, yet we forget that he is someone today.
             </p>
             <div class="is-animated">
-              <div class="btn btn-slide">
+              <a href="https://www.youtube.com/watch?v=kpi0GOPAz8Q" class="mediabox btn btn-slide">
                 <i class="fa fa-plus" aria-hidden="true" style="color:#F9C604"></i> Instalaciones
-              </div>
+              </a>
               <p class="texto1 mini" style="text-align:center;">Checa nuestros instalaciones</p>
             </div>
           </div>
@@ -153,10 +155,23 @@
     <section class="vertical-scrolling bg-patron sociales-slide">
       <div class="flex-container">
         <div class="flex-item">
-            <div class="datos-div">Blog</div>
+          <div class="datos-div">Blog</div>
         </div>
         <div class="flex-item">
-          <div class="datos-div">Facebook</div>
+          <div class="datos-div">
+            <div id="fb-root"></div>
+            <script>
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s);
+              js.id = id;
+              js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div class="fb-page" data-href="https://www.facebook.com/El-Directorio-Comercial-190452041047611/" data-tabs="timeline" data-width="350" data-height="460" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/El-Directorio-Comercial-190452041047611/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/El-Directorio-Comercial-190452041047611/">El Directorio Comercial</a></blockquote></div>
+          </div>
         </div>
         <div class="flex-item">
           <div class="datos-div">Instagram</div>
@@ -313,7 +328,7 @@
     } else { // Landscape
       $('head').append('<meta name="viewport" content="user-scalable=yes, initial-scale=0">');
     }
-    
+
   });
   </script>
 </body>
