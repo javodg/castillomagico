@@ -449,12 +449,22 @@ margin: -1vh 0 0 -1vh;
     background: #8516A0;
 }
 
-.fp-viewing-contacto>.header-top, .fp-viewing-contacto .menu-animated-background, .fp-viewing-contacto .nav-active {
+.fp-viewing-contacto>.header-top,
+.fp-viewing-contacto .menu-animated-background,
+.fp-viewing-contacto .nav-active,
+.fp-viewing-sociales>.header-top,
+.fp-viewing-sociales .menu-animated-background,
+.fp-viewing-sociales .nav-active {
     background: #FFCB28 !important;
 }
 
 .fp-viewing-contacto {
     background: #8516A0;
+}
+
+
+.fp-viewing-sociales {
+    background: #0836a9;
 }
 
 .img-responsive {
@@ -536,7 +546,7 @@ margin: -1vh 0 0 -1vh;
     }
 }
 /* Estilos por eliminar, solo de ayuda durante el desarrollo */
-.contacto-slide {
+.contacto-slide, .sociales-slide {
   padding: 5vh;
 }
 
